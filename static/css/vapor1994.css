@@ -1,0 +1,306 @@
+/*
+ *
+ * ██╗   ██╗ █████╗ ██████╗  ██████╗ ██████╗  ██╗ █████╗  █████╗ ██╗  ██╗
+ * ██║   ██║██╔══██╗██╔══██╗██╔═══██╗██╔══██╗███║██╔══██╗██╔══██╗██║  ██║
+ * ██║   ██║███████║██████╔╝██║   ██║██████╔╝╚██║╚██████║╚██████║███████║
+ * ╚██╗ ██╔╝██╔══██║██╔═══╝ ██║   ██║██╔══██╗ ██║ ╚═══██║ ╚═══██║╚════██║
+ *  ╚████╔╝ ██║  ██║██║     ╚██████╔╝██║  ██║ ██║ █████╔╝ █████╔╝     ██║
+ *   ╚═══╝  ╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝ ╚═╝ ╚════╝  ╚════╝      ╚═╝
+ *
+ * Designed, built, and released under MIT license by @aezell. Learn more at
+ * https://gitlab.com/aezell/vapor1994.
+ *
+ * With a lot of help from @mdo's Hyde at https://github.com/poole/hyde
+ */
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Sidebar
+ * Container
+ * Reverse layout
+ * Themes
+ */
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.sidebar {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(241, 28, 172, 0.8);
+  border-right: 3px solid black;
+}
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+}
+
+/* Sidebar links */
+.sidebar-about a {
+  color: rgba(255, 255, 255, 1);
+}
+.sidebar-about a:hover,
+.sidebar-about a:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(170, 0, 238, 0.8);
+}
+
+/* About section */
+.sidebar-about h1 {
+  margin-top: 0;
+  font-family: "Bungee", cursive;
+  font-size: 3.5rem;
+  padding: 5px;
+  border: 3px solid black;
+  box-shadow: 3px 2px black;
+  background-color: rgba(0, 136, 255, 0.8);
+}
+
+.sidebar-about h1:hover,
+.sidebar-about h1:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(170, 0, 238, 0.8);
+}
+
+.lead {
+  color: black;
+  margin-top: 0;
+  font-size: 0.8rem;
+  padding: 5px;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  background-color: rgba(0, 136, 255, 0.8);
+}
+
+.lead a {
+  color: black;
+}
+
+.lead a:hover,
+.lead a:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(170, 0, 238, 0.8);
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  margin-bottom: 1rem;
+}
+.sidebar-nav-item {
+  display: block;
+  line-height: 1.75;
+  color: #000;
+  background-color: rgba(255, 238, 17, 0.9);
+  margin: 5px;
+  padding-left: 10px;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  border-radius: 3px;
+  font-family: "Bungee", cursive;
+}
+a.sidebar-nav-item {
+  color: #000;
+}
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(170, 0, 238, 0.8);
+}
+.sidebar-nav-item.active {
+  color: #fff;
+  background-color: rgba(170, 0, 238, 0.8);
+  font-weight: bold;
+}
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+}
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 38rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+}
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` on the right.
+ */
+
+@media (min-width: 48em) {
+  .layout-reverse .sidebar {
+    left: auto;
+    right: 0;
+  }
+  .layout-reverse .content {
+    margin-left: 2rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .layout-reverse .content {
+    margin-left: 4rem;
+    margin-right: 22rem;
+  }
+}
+
+#post-nav {
+  padding-top: 25px;
+}
+
+#post-nav .prev {
+  padding-right: 10px;
+}
+
+video {
+  max-width: 100%;
+}
+
+.post {
+  margin: 5 5 5 5;
+  padding: 15px;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  border-radius: 3px;
+  background-color: white;
+}
+
+a.post-date {
+  display: block;
+  line-height: 1.75;
+  color: #000;
+  background-color: rgba(255, 238, 17, 0.9);
+  margin: 5px;
+  padding-left: 10px;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  border-radius: 3px;
+  font-family: "Bungee", cursive;
+  font-size: 0.7rem;
+}
+a.post-date:hover,
+a.post-date:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(170, 0, 238, 0.8);
+}
+
+h1.page-title {
+  background-color: rgba(255, 238, 17, 0.9);
+  margin: 5px;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  border-radius: 3px;
+}
+h1.page-title:hover,
+h1.page-title:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(170, 0, 238, 0.8);
+}
+
+.page-title a {
+  padding-left: 10px;
+  display: block;
+  line-height: 1.25;
+  color: #000;
+  background-color: rgba(255, 238, 17, 0.9);
+  font-family: "Bungee", cursive;
+}
+.page-title a:hover,
+.page-title a:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(170, 0, 238, 0.8);
+}
+
+.e-content {
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.e-content a {
+  color: rgba(170, 0, 238, 0.8);
+}
+.e-content a:hover,
+.e-content a:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(170, 0, 238, 0.8);
+}
+
+body {
+  background-color: rgba(170, 0, 238, 0.8);
+}
