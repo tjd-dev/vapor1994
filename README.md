@@ -4,9 +4,21 @@ Vapor1994 is a two-column theme for micro.blog sites.
 
 ## Contents
 
+- [Why?](#why)
+- [Screenshot](#screenshot)
 - [Usage](#usage)
 - [Author](#author)
 - [License](#license)
+
+## Why?
+
+I was inspired to create this theme due to my secret love for the Vaporwave/AMV music scene and aesthetics while also combining some ideas from the [Neubrutalism](https://hype4.academy/articles/design/neubrutalism-is-taking-over-web) trend.
+
+## Screenshot
+
+This is what Vapor1994 looks like on [my blog](https://micro.alexezell.com).
+
+![post](images/post.png)
 
 ## Usage
 
