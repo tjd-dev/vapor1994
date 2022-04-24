@@ -39,3 +39,6 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+
+# micro blog theme dev files
+tester.html
