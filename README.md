@@ -22,7 +22,7 @@ This is what Vapor1994 looks like on [my blog](https://micro.alexezell.com).
 
 ## Usage
 
-To install Vapor1994 on your micro.blog site, just use this repository's URL in the Design section of your site.
+To install Vapor1994 on your micro.blog site, just use this repository's URL in the Design section of your site. You might also find it listed in the Plug-ins Directory at micro.blog.
 
 ## Author
 
