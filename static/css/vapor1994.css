@@ -440,6 +440,23 @@ h1.page-title {
   font-size: 0.7rem;
 }
 
+a.reply-by-email {
+  display: block;
+  line-height: 1.75;
+  color: #000;
+  background-color: rgba(255, 238, 17, 0.9);
+  margin: 5px;
+  padding: 3px 3px 3px 10px;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  border-radius: 3px;
+  font-family: "Bungee", cursive;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: auto;
+  width: 40%;
+}
+
 body {
   background-color: rgba(170, 0, 238, 0.8);
 }
