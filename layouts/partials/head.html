@@ -10,8 +10,7 @@
   />
 
   <title>
-    {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Site.Title }} &middot; {{
-    .Title }} {{ end }}
+    {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Site.Title }} &middot; {{ .Title }} {{ end }}
   </title>
 
   <link
@@ -21,10 +20,10 @@
   />
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ "css/poole.css" | relURL }}"> <link
-  rel="stylesheet" href="{{ "css/syntax.css" | relURL }}"> <link
-  rel="stylesheet" href="{{ "css/vapor1994.css" | relURL }}"> <link
-  rel="stylesheet" href="{{ "custom.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/poole.css" | relURL }}"> 
+  <link rel="stylesheet" href="{{ "css/syntax.css" | relURL }}"> 
+  <link rel="stylesheet" href="{{ "css/vapor1994.css" | relURL }}"> 
+  <link rel="stylesheet" href="{{ "custom.css" | relURL }}">
   <link
     href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@300&display=swap"
     rel="stylesheet"
@@ -37,18 +36,20 @@
     type="application/rss+xml"
     title="{{ .Site.Title }}"
   />
-  <link href="{{ "podcast.xml" | absURL }}" rel="alternate"
-  type="application/rss+xml" title="Podcast" /> <link rel="alternate"
-  type="application/json" title="{{ .Site.Title }}" href="{{ "feed.json" |
-  absURL }}" /> <link rel="EditURI" type="application/rsd+xml" href="{{
-  "rsd.xml" | absURL }}" /> {{ end -}}
+  <link href="{{ "podcast.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="Podcast" /> 
+  <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ "feed.json" |
+  absURL }}" /> 
+  <link rel="EditURI" type="application/rsd+xml" href="{{ "rsd.xml" | absURL }}" /> 
+  {{ end -}}
 
   <link rel="me" href="https://micro.blog/{{ .Site.Author.username }}" />
   {{ with .Site.Params.twitter_username }}
   <link rel="me" href="https://twitter.com/{{ . }}" />
-  {{ end }} {{ with .Site.Params.github_username }}
+  {{ end }} 
+  {{ with .Site.Params.github_username }}
   <link rel="me" href="https://github.com/{{ . }}" />
-  {{ end }} {{ with .Site.Params.instagram_username }}
+  {{ end }} 
+  {{ with .Site.Params.instagram_username }}
   <link rel="me" href="https://instagram.com/{{ . }}" />
   {{ end }}
   <link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth" />
