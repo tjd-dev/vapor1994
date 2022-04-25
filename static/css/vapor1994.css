@@ -98,7 +98,7 @@ html {
 }
 
 .lead {
-  color: black;
+  color: white;
   margin-top: 0;
   font-size: 0.8rem;
   padding: 5px;
@@ -110,13 +110,13 @@ html {
 }
 
 .lead a {
-  color: black;
+  color: white;
 }
 
 .lead a:hover,
 .lead a:focus {
   text-decoration: none;
-  color: #fff;
+  color: white;
   background-color: rgba(170, 0, 238, 0.8);
 }
 
