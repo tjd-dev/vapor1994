@@ -263,8 +263,12 @@ h1.page-title {
   border: 3px solid black;
   box-shadow: 3px 3px black;
   border-radius: 3px;
-  padding-left: 10px;
   font-family: "Bungee", cursive;
+  padding-left: 10px;
+}
+.h-feed h1.page-title:hover,
+.h-feed h1.page-title:focus {
+  background-color: rgba(170, 0, 238, 1);
 }
 
 .page-title a {
@@ -273,6 +277,7 @@ h1.page-title {
   color: #000;
   background-color: rgba(255, 238, 17, 0.9);
   font-family: "Bungee", cursive;
+  width: 100%;
 }
 .page-title a:hover,
 .page-title a:focus {
@@ -296,6 +301,22 @@ h1.page-title {
   text-decoration: none;
   color: #fff;
   background-color: rgba(170, 0, 238, 0.8);
+}
+
+.page {
+  margin: 5 5 5 5;
+  padding: 15px;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.page-content {
+  margin: 5 5 5 5;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
 }
 
 .photos-grid-container img {
@@ -438,6 +459,33 @@ h1.page-title {
 .bookshelf_author {
   margin-left: 15px;
   font-size: 0.7rem;
+}
+
+.archive_categories {
+  margin: 5 5 5 5;
+  padding: 15px;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.h-entry {
+  margin: 5 5 5 5;
+  padding: 15px;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  border-radius: 3px;
+  background-color: white;
+}
+.h-entry a {
+  color: rgba(170, 0, 238, 0.8);
+}
+.h-entry a:hover,
+.h-entry a:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(170, 0, 238, 0.8);
 }
 
 a.reply-by-email {
