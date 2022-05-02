@@ -265,6 +265,7 @@ h1.page-title {
   border-radius: 3px;
   font-family: "Bungee", cursive;
   padding-left: 10px;
+  color: #000;
 }
 .h-feed h1.page-title:hover,
 .h-feed h1.page-title:focus {
