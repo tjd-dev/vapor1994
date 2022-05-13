@@ -1,5 +1,267 @@
 {
   "version": "1.0.7",
   "title": "Vapor1994 theme",
-  "description": "Changes your blog to use the Vapor1994 theme."
+  "description": "Changes your blog to use the Vapor1994 theme.",
+  "fields": [
+    {
+      "field": "params.border_color",
+      "label": "Border Color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.border_shadow_color",
+      "label": "Border Shadow Color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.content_column_bg_color",
+      "label": "Right column background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.content_bg_color",
+      "label": "Content (actual post content) background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.sidebar_bg_color",
+      "label": "Left column background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.nav_bg_color",
+      "label": "Nav item background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.nav_text_color",
+      "label": "Nav item text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.nav_bg_hover_color",
+      "label": "Nav item hover background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.nav_text_hover_color",
+      "label": "Nav item hover text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.title_bg_color",
+      "label": "Blog title background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.title_text_color",
+      "label": "Blog title text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.title_bg_hover_color",
+      "label": "Blog title hover background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.title_text_hover_color",
+      "label": "Blog title hover text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.link_bg_color",
+      "label": "Content link background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.link_text_color",
+      "label": "Content link text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.link_bg_hover_color",
+      "label": "Content link hover background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.link_text_hover_color",
+      "label": "Content link hover text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.datetime_bg_color",
+      "label": "Post datetime background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.datetime_text_color",
+      "label": "Post datetime text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.datetime_bg_hover_color",
+      "label": "Post datetime hover background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.datetime_text_hover_color",
+      "label": "Post datetime hover text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.post_title_bg_color",
+      "label": "Post title background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.post_title_text_color",
+      "label": "Post title text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.post_title_bg_hover_color",
+      "label": "Post title hover background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.post_title_text_hover_color",
+      "label": "Post title hover text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.content_text_color",
+      "label": "Content text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.photos_bg_color",
+      "label": "Photos background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_title_bg_color",
+      "label": "Conversation section title background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_title_text_color",
+      "label": "Conversation section title text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_bg_color",
+      "label": "Conversation section background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_text_color",
+      "label": "Conversation text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_user_bg_color",
+      "label": "Conversation username background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_user_text_color",
+      "label": "Conversation username text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_link_bg_color",
+      "label": "Conversation link background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_link_text_color",
+      "label": "Conversation link text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_link_bg_hover_color",
+      "label": "Conversation link hover background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_link_text_hover_color",
+      "label": "Conversation link hover text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_timestamp_bg_color",
+      "label": "Conversation timestamp background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_timestamp_text_color",
+      "label": "Conversation timestamp text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_timestamp_bg_hover_color",
+      "label": "Conversation timestamp hover background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.conversation_timestamp_text_hover_color",
+      "label": "Conversation timestamp hover text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.bookshelf_bg_color",
+      "label": "Bookshelf item background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.bookshelf_text_color",
+      "label": "Bookshelf item text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.bookshelf_cover_bg_color",
+      "label": "Bookshelf cover background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.bookshelf_cover_border_color",
+      "label": "Bookshelf cover border color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.bookshelf_cover_border_hover_color",
+      "label": "Bookshelf cover hover border color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.archive_bg_color",
+      "label": "Archive item background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.archive_text_color",
+      "label": "Archive item text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.archive_timestamp_bg_color",
+      "label": "Archive timestamp background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.archive_timestamp_text_color",
+      "label": "Archive timestamp text color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.archive_timestamp_bg_hover_color",
+      "label": "Archive timestamp hover background color",
+      "placeholder": "Use hex or rgba"
+    },
+    {
+      "field": "params.archive_timestamp_text_hover_color",
+      "label": "Archive timestamp hover text color",
+      "placeholder": "Use hex or rgba"
+    }
+  ]
 }

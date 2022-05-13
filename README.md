@@ -24,6 +24,8 @@ This is what Vapor1994 looks like on [my blog](https://micro.alexezell.com).
 
 To install Vapor1994 on your micro.blog site, just use this repository's URL in the Design section of your site. You might also find it listed in the Plug-ins Directory at micro.blog.
 
+Settings are available to customize many (all?) of the colors of the theme. It's defaulted to the colors in the screenshot but you can mix and match as you like. Just edit the plugin settings and provide an RGB hex, like `#000000`, or an rgba value, like `rgba(0, 0, 0, 1)`. You can change none, some, or all of the settings.
+
 ## Author
 
 **Alex Ezell**

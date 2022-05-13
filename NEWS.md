@@ -1,3 +1,7 @@
+## Version 1.0.8
+
+- Customizable colors via plugin settings
+
 ## Version 1.0.7
 
 - Bug fixes
