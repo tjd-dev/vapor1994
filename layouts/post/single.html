@@ -6,7 +6,9 @@
   <span class="post-date"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "2 Jan 2006 // 15:04" }}</time></span>
   <div class="e-content">
   {{ .Content }}
-  {{ partial "reply-by-email.html" . }}
+  {{ if templates.Exists "partials/reply-by-email.html" }}
+    <div>{{ partial "reply-by-email.html" . }}</div>
+  {{ end }}
   </div>
 </div>
 
