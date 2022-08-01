@@ -1,6 +1,8 @@
-## Version 1.0.8
+## Version 1.1.1
+- Fixed - Make Reply By Email conditional
 
-- Customizable colors via plugin settings
+## Version 1.1.0
+- Improved - Customizable colors via plugin settings
 
 ## Version 1.0.7
 
